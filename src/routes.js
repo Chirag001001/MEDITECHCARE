@@ -1,6 +1,7 @@
 import Dashboard from "layouts/dashboard";
 import Tables from "layouts/tables";
 import Billing from "layouts/billing";
+import Doctor from "layouts/doctor";
 import Notifications from "layouts/notifications";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
@@ -32,6 +33,16 @@ const routes = [
     route: "/billing",
     component: <Billing />,
   },
+
+  {
+    type: "collapse",
+    name: "Book an Appointment",
+    key: "doctor",
+    icon: <Icon fontSize="small">receipt_long</Icon>,
+    route: "/doctor",
+    component: <Doctor />,
+  },
+
   {
     type: "collapse",
     name: "My Reports",
