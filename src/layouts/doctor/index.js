@@ -277,7 +277,7 @@ function Doctor() {
           </Grid> */}
         </Grid>
       </MDBox>
-      <Footer />
+      {/* <Footer /> */}
     </DashboardLayout>
   );
 }

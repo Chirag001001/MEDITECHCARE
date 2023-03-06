@@ -47,7 +47,7 @@ function Billing() {
                 <Grid item xs={12} md={6} xl={3}>
                   <DefaultInfoCard
                     icon="account_balance"
-                    title="salary"
+                    title="Total Expenses"
                     description="Belong Interactive"
                     value="+$2000"
                   />
@@ -55,7 +55,7 @@ function Billing() {
                 <Grid item xs={12} md={6} xl={3}>
                   <DefaultInfoCard
                     icon="paypal"
-                    title="paypal"
+                    title="benifits availed"
                     description="Freelance Payment"
                     value="$455.00"
                   />
@@ -81,7 +81,7 @@ function Billing() {
           </Grid>
         </MDBox>
       </MDBox>
-      <Footer />
+      {/* <Footer /> */}
     </DashboardLayout>
   );
 }

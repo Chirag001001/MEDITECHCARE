@@ -51,9 +51,9 @@ export default function data() {
   return {
     columns: [
       { Header: "Name", accessor: "author", width: "45%", align: "left" },
-      { Header: "EHR no.", accessor: "function", align: "left" },
+      { Header: "Salary", accessor: "budget", align: "left" },
       { Header: "status", accessor: "status", align: "center" },
-      { Header: "Last checkup", accessor: "employed", align: "center" },
+      { Header: "Working since", accessor: "work", align: "center" },
       { Header: "action", accessor: "action", align: "center" },
     ],
 
@@ -61,12 +61,17 @@ export default function data() {
       {
         author: <Author image={team2} name="John Michael" email="john@creative-tim.com" />,
         function: <Job title="EH10012023" description="" />,
+        budget: (
+            <MDTypography component="a" href="#" variant="button" color="text" fontWeight="medium">
+              $2,500
+            </MDTypography>
+          ),
         status: (
           <MDBox ml={-1}>
             <MDBadge badgeContent="online" color="success" variant="gradient" size="sm" />
           </MDBox>
         ),
-        employed: (
+        work: (
           <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
             23/04/18
           </MDTypography>
@@ -80,12 +85,18 @@ export default function data() {
       {
         author: <Author image={team3} name="Alexa Liras" email="alexa@creative-tim.com" />,
         function: <Job title="7849576EH" description="" />,
+        budget: (
+            <MDTypography component="a" href="#" variant="button" color="text" fontWeight="medium">
+              $3,500
+            </MDTypography>
+          ),
+
         status: (
           <MDBox ml={-1}>
             <MDBadge badgeContent="offline" color="dark" variant="gradient" size="sm" />
           </MDBox>
         ),
-        employed: (
+        work: (
           <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
             11/01/19
           </MDTypography>
@@ -99,12 +110,18 @@ export default function data() {
       {
         author: <Author image={team4} name="Laurent Perrier" email="laurent@creative-tim.com" />,
         function: <Job title="EHR-5678" description="" />,
+        budget: (
+            <MDTypography component="a" href="#" variant="button" color="text" fontWeight="medium">
+              $4,500
+            </MDTypography>
+          ),
+
         status: (
           <MDBox ml={-1}>
             <MDBadge badgeContent="online" color="success" variant="gradient" size="sm" />
           </MDBox>
         ),
-        employed: (
+        work: (
           <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
             19/09/17
           </MDTypography>
@@ -118,12 +135,18 @@ export default function data() {
       {
         author: <Author image={team3} name="Michael Levi" email="michael@creative-tim.com" />,
         function: <Job title="2234-EHR-789" description="" />,
+        budget: (
+            <MDTypography component="a" href="#" variant="button" color="text" fontWeight="medium">
+              $5,500
+            </MDTypography>
+          ),
+
         status: (
           <MDBox ml={-1}>
             <MDBadge badgeContent="online" color="success" variant="gradient" size="sm" />
           </MDBox>
         ),
-        employed: (
+        work: (
           <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
             24/12/08
           </MDTypography>
@@ -137,12 +160,18 @@ export default function data() {
       {
         author: <Author image={team3} name="Richard Gran" email="richard@creative-tim.com" />,
         function: <Job title="EHR-PM-2312" description="" />,
+        budget: (
+            <MDTypography component="a" href="#" variant="button" color="text" fontWeight="medium">
+              $6,500
+            </MDTypography>
+          ),
+
         status: (
           <MDBox ml={-1}>
             <MDBadge badgeContent="offline" color="dark" variant="gradient" size="sm" />
           </MDBox>
         ),
-        employed: (
+        work: (
           <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
             04/10/21
           </MDTypography>
@@ -156,12 +185,19 @@ export default function data() {
       {
         author: <Author image={team4} name="Miriam Eric" email="miriam@creative-tim.com" />,
         function: <Job title="9100EH001" description="" />,
+        
+        budget: (
+            <MDTypography component="a" href="#" variant="button" color="text" fontWeight="medium">
+              $7,500
+            </MDTypography>
+          ),
+
         status: (
           <MDBox ml={-1}>
             <MDBadge badgeContent="offline" color="dark" variant="gradient" size="sm" />
           </MDBox>
         ),
-        employed: (
+        work: (
           <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
             14/09/20
           </MDTypography>

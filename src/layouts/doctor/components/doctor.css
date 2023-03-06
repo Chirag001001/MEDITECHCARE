@@ -29,7 +29,7 @@
     box-shadow: 0px 4px 8px rgb(0 0 0 / 15%);
     display: flex;
     flex-direction: column;
-    max-height: 90vh;
+    max-height: 100vh;
     min-height: 497px;
   }
   

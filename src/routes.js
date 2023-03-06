@@ -1,5 +1,5 @@
 import Dashboard from "layouts/dashboard";
-import Tables from "layouts/tables";
+import Hospital from "layouts/tables";
 import Billing from "layouts/billing";
 import Doctor from "layouts/doctor";
 import Notifications from "layouts/notifications";
@@ -19,11 +19,11 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Tables",
-    key: "tables",
+    name: "Hospital Pannel",
+    key: "Hospital Pannel",
     icon: <Icon fontSize="small">table_view</Icon>,
     route: "/tables",
-    component: <Tables />,
+    component: <Hospital/>,
   },
   {
     type: "collapse",

@@ -29,7 +29,7 @@ export default [
       type: "internal",
       route: "/pages/profile/profile-overview",
       color: "info",
-      label: "reply",
+      label: "chat",
     },
   },
   {
@@ -40,7 +40,7 @@ export default [
       type: "internal",
       route: "/pages/profile/profile-overview",
       color: "info",
-      label: "reply",
+      label: "chat",
     },
   },
   {
@@ -51,7 +51,7 @@ export default [
       type: "internal",
       route: "/pages/profile/profile-overview",
       color: "info",
-      label: "reply",
+      label: "chat",
     },
   },
   {
@@ -62,7 +62,7 @@ export default [
       type: "internal",
       route: "/pages/profile/profile-overview",
       color: "info",
-      label: "reply",
+      label: "chat",
     },
   },
   {
@@ -73,7 +73,7 @@ export default [
       type: "internal",
       route: "/pages/profile/profile-overview",
       color: "info",
-      label: "reply",
+      label: "chat",
     },
   },
 ];

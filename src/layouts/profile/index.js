@@ -46,7 +46,7 @@ function Overview() {
               <Divider orientation="vertical" sx={{ ml: -2, mr: 1 }} />
               <ProfileInfoCard
                 title="profile information"
-                description="Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
+                description="My name is Alec and I am a 35-year-old architect living in New York City. I graduated from Columbia University with a degree in architecture and have been working in the field for over 10 years. In my free time, I enjoy playing basketball, hiking, and exploring new neighborhoods in the city. "
                 info={{
                   fullName: "Alec M. Thompson",
                   mobile: "(44) 123 1234 123",
@@ -76,17 +76,17 @@ function Overview() {
               <Divider orientation="vertical" sx={{ mx: 0 }} />
             </Grid>
             <Grid item xs={12} xl={4}>
-              <ProfilesList title="conversations" profiles={profilesListData} shadow={false} />
+              <ProfilesList title="Doctors Consulted" profiles={profilesListData} shadow={false} />
             </Grid>
           </Grid>
         </MDBox>
         <MDBox pt={2} px={2} lineHeight={1.25}>
           <MDTypography variant="h6" fontWeight="medium">
-            Projects
+            Recent Reports
           </MDTypography>
           <MDBox mb={1}>
             <MDTypography variant="button" color="text">
-              Architects design houses
+              
             </MDTypography>
           </MDBox>
         </MDBox>
@@ -95,79 +95,68 @@ function Overview() {
             <Grid item xs={12} md={6} xl={3}>
               <DefaultProjectCard
                 image={homeDecor1}
-                label="project #2"
-                title="modern"
-                description="As Uber works through a huge amount of internal management turmoil."
+                label="Report 1"
+                title="Abc Hospital"
+                description=" No new health concerns. Weight and BMI within healthy range. Recommended annual blood work and mammogram scheduled. Next checkup scheduled for 03/04/2024."
                 action={{
                   type: "internal",
                   route: "/pages/profile/profile-overview",
                   color: "info",
-                  label: "view project",
+                  label: "view detailed report",
                 }}
                 authors={[
                   { image: team1, name: "Elena Morison" },
-                  { image: team2, name: "Ryan Milly" },
-                  { image: team3, name: "Nick Daniel" },
-                  { image: team4, name: "Peterson" },
                 ]}
               />
             </Grid>
             <Grid item xs={12} md={6} xl={3}>
               <DefaultProjectCard
                 image={homeDecor2}
-                label="project #1"
-                title="scandinavian"
-                description="Music is something that everyone has their own specific opinion about."
+                label="report 2"
+                title="abc hospital"
+                description="No new health concerns. Blood pressure, cholesterol, and blood sugar levels all within normal range. Next checkup scheduled for 03/05/2024."
                 action={{
                   type: "internal",
                   route: "/pages/profile/profile-overview",
                   color: "info",
-                  label: "view project",
+                  label: "view detailed report",
                 }}
                 authors={[
                   { image: team3, name: "Nick Daniel" },
-                  { image: team4, name: "Peterson" },
-                  { image: team1, name: "Elena Morison" },
-                  { image: team2, name: "Ryan Milly" },
                 ]}
               />
             </Grid>
             <Grid item xs={12} md={6} xl={3}>
               <DefaultProjectCard
                 image={homeDecor3}
-                label="project #3"
-                title="minimalist"
-                description="Different people have different taste, and various types of music."
+                label="Report 3"
+                title="abc hospital"
+                description="treated with antibiotics and respiratory therapy. Discharged on 02/28/2023 in improved condition. Follow-up appointment scheduled for 03/08/2023."
                 action={{
                   type: "internal",
                   route: "/pages/profile/profile-overview",
                   color: "info",
-                  label: "view project",
+                  label: "view detailed report",
                 }}
                 authors={[
                   { image: team4, name: "Peterson" },
-                  { image: team3, name: "Nick Daniel" },
-                  { image: team2, name: "Ryan Milly" },
-                  { image: team1, name: "Elena Morison" },
+
                 ]}
               />
             </Grid>
             <Grid item xs={12} md={6} xl={3}>
               <DefaultProjectCard
                 image={homeDecor4}
-                label="project #4"
-                title="gothic"
-                description="Why would anyone pick blue over pink? Pink is obviously a better color."
+                label="Report 4"
+                title="xyz hospital"
+                description="Fractured right ankle, treated with casting and pain management. Follow-up appointment scheduled for 03/15/2023."
                 action={{
                   type: "internal",
                   route: "/pages/profile/profile-overview",
                   color: "info",
-                  label: "view project",
+                  label: "view detailed report",
                 }}
                 authors={[
-                  { image: team4, name: "Peterson" },
-                  { image: team3, name: "Nick Daniel" },
-                  { image: team2, name: "Ryan Milly" },
                   { image: team1, name: "Elena Morison" },
                 ]}
               />
@@ -175,7 +164,7 @@ function Overview() {
           </Grid>
         </MDBox>
       </Header>
-      <Footer />
+      {/* <Footer /> */}
     </DashboardLayout>
   );
 }

@@ -29,18 +29,18 @@ function OrdersOverview() {
     <Card sx={{ height: "100%" }}>
       <MDBox pt={3} px={3}>
         <MDTypography variant="h6" fontWeight="medium">
-          Orders overview
+          Timeline
         </MDTypography>
         <MDBox mt={0} mb={2}>
           <MDTypography variant="button" color="text" fontWeight="regular">
             <MDTypography display="inline" variant="body2" verticalAlign="middle">
               <Icon sx={{ color: ({ palette: { success } }) => success.main }}>arrow_upward</Icon>
             </MDTypography>
-            &nbsp;
+            {/* &nbsp; */}
             <MDTypography variant="button" color="text" fontWeight="medium">
-              24%
+              {/* 24% */}
             </MDTypography>{" "}
-            this month
+            {/* this month */}
           </MDTypography>
         </MDBox>
       </MDBox>
@@ -48,31 +48,31 @@ function OrdersOverview() {
         <TimelineItem
           color="success"
           icon="notifications"
-          title="$2400, Design changes"
+          title="Health Issue Resolved"
           dateTime="22 DEC 7:20 PM"
         />
         <TimelineItem
           color="error"
           icon="inventory_2"
-          title="New order #1832412"
+          title="Appointment Scheduled"
           dateTime="21 DEC 11 PM"
         />
         <TimelineItem
           color="info"
           icon="shopping_cart"
-          title="Server payments for April"
+          title="Health Insurance Ordered"
           dateTime="21 DEC 9:34 PM"
         />
         <TimelineItem
           color="warning"
           icon="payment"
-          title="New card added for order #4395133"
+          title="Health Issue Raised"
           dateTime="20 DEC 2:20 AM"
         />
         <TimelineItem
           color="primary"
           icon="vpn_key"
-          title="New card added for order #4395133"
+          title="Kyc Verified"
           dateTime="18 DEC 4:54 AM"
           lastItem
         />
