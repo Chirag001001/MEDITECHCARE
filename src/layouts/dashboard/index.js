@@ -47,9 +47,9 @@ function Dashboard() {
             <MDBox mb={1.5}>
               <ComplexStatisticsCard
                 color="dark"
-                icon="weekend"
+                icon="medication"
                 title="Checkups"
-                count={281}
+                count={30}
                 percentage={{
                   color: "success",
                   amount: "+55%",
@@ -63,7 +63,7 @@ function Dashboard() {
               <ComplexStatisticsCard
                 icon="leaderboard"
                 title="Health Issues"
-                count="2,300"
+                count="5"
                 percentage={{
                   color: "success",
                   amount: "+3%",
@@ -76,9 +76,9 @@ function Dashboard() {
             <MDBox mb={1.5}>
               <ComplexStatisticsCard
                 color="success"
-                icon="store"
+                icon="receiptlong"
                 title="Total Appointments"
-                count="34k"
+                count="28"
               
                 percentage={{
                   color: "success",
@@ -94,7 +94,7 @@ function Dashboard() {
                 color="primary"
                 icon="person_add"
                 title="Issues solved"
-                count="+91"
+                count="5"
                 percentage={{
                   color: "success",
                   amount: "",
@@ -106,7 +106,7 @@ function Dashboard() {
         </Grid>
         <MDBox mt={4.5}>
           <Grid container spacing={3}>
-            <Grid item xs={12} md={6} lg={4}>
+            {/* <Grid item xs={12} md={6} lg={4}>
               <MDBox mb={3}>
                 <ReportsBarChart
                   color="info"
@@ -116,7 +116,7 @@ function Dashboard() {
                   chart={sales}
                 />
               </MDBox>
-            </Grid>
+            </Grid> */}
             <Grid item xs={12} md={6} lg={4}>
               <MDBox mb={3}>
                 <ReportsLineChart
